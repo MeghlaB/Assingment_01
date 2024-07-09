@@ -58,3 +58,24 @@
     
     color: rgb(255, 255, 255);
 }
+
+/* Frist-section */
+.frist-section{
+    width: 1140px;
+    height: 1395px;
+    border: 1px solid red;
+    margin: 0% auto;
+    margin-top: 74px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+.section-container{
+    width: 946px;
+    height: 1072px;
+    margin: 0% auto;
+    margin: 80px 96px 80px 96px;
+    border: 1px solid rebeccapurple;
+}
+.sections-content{
+    text-align: center;
+}
