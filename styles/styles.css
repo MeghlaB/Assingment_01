@@ -1,0 +1,31 @@
+/* nav{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+   
+} */
+ *{
+    margin: 0%;
+    padding: 0%;
+ }
+ /* banner-sections_styles */
+ .banner-section{
+    max-width: 1440px;
+    min-height: 652px;
+    margin-top: 130px;
+    border: 1px solid rebeccapurple;
+    background-image: url(../assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .banner-container{
+    width: 998px;
+    margin: 0% auto;
+    height: 582px;
+    /* text-align: center; */
+    border: 1px solid red;
+
+ }
