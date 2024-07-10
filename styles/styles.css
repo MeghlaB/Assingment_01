@@ -11,9 +11,6 @@
     align-items: center;
     width:1120px;
     height: 150px;
- 
-
-
 }
 .names{
     width: 204px;
@@ -52,8 +49,7 @@
     max-width: 1440px;
     min-height: 652px;
     margin-top: 50px;
-    margin-top: 0% auto;
- 
+    margin: 0% auto;
     background-image: url(../assets/Hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -102,9 +98,8 @@ a{
 }
 /* Frist-section */
 .frist-section{
-    width: 1140px;
-    height: 1395px;
-
+   max-width: 1140px;
+    min-height: 1395px;
     margin: 0% auto;
     margin-top:74px ;
     border-radius: 16px;
@@ -287,13 +282,13 @@ iframe{
     height: 714px;
     margin: 0 auto;
     margin-top: 78px;
-    /* border: 1px solid goldenrod; */
+   
 
 }
 .third-blogs-section{
     max-width: 1140px;
     height: 463px;
-    /* border: 1px solid hotpink; */
+   
     display: flex;
     align-items: center;
     gap: 24px;
