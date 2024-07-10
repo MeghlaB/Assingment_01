@@ -327,7 +327,7 @@ iframe{
     
 }
 .larn-More{
-    color: rgb(13, 19, 33);
+    color: black;
     font-family: Azeret Mono;
     font-size: 24px;
     font-weight:700;
@@ -402,11 +402,12 @@ iframe{
     padding-top: 8px;
 }
 .fourth-button{
-    height: 19px;
-    color: rgb(13, 19, 33);
+    height: 18px;
+    font-size: 24px;
+    color:black;
     font-family: Azeret Mono;   
-    padding-top: 24px;
-    opacity: 0.7;
+    padding-top:24px;
+  
 }
 .nodejs{
     width: 143.21px;
