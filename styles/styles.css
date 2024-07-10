@@ -1,20 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
- nav{
-    margin-top: 30px;
-    margin-left: 150px;
-    margin-right: 150px;
-   
-}
+
 .nav-menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width:1120px;
+    width:1140px;
     height: 150px;
+    margin: 0 auto;
 }
 .names{
-    width: 204px;
-    height: 34px;
     color: rgb(13, 19, 33);
     font-size: 28px;
     font-weight: 800px;
@@ -98,7 +92,7 @@ a{
 }
 /* Frist-section */
 .frist-section{
-   max-width: 1140px;
+    max-width: 1140px;
     min-height: 1395px;
     margin: 0% auto;
     margin-top:74px ;
