@@ -195,7 +195,7 @@
     height: 714px;
     margin: 0 auto;
     margin-top: 47px;
-    border: 1px solid goldenrod;
+    /* border: 1px solid goldenrod; */
 
 }
 .seccond-section-container{
@@ -217,16 +217,14 @@
     font-size: 16px;
     font-weight: 400px;
     line-height: 20px;
-
     color: rgb(13, 19, 33);
     opacity: 0.7;
     font-family: Azeret Mono;
 }
 .second-sections-video{
     border-radius: 16px;
-
     margin-top: 48px;
-    border: 1px solid rgb(151, 148, 148);
+    /* border: 1px solid rgb(151, 148, 148); */
 }
 
 iframe{
@@ -238,3 +236,84 @@ iframe{
   
 }
    
+/* third-section-styles*/
+.third-section{
+    width: 1140px;
+    height: 714px;
+    margin: 0 auto;
+    margin-top: 47px;
+    /* border: 1px solid goldenrod; */
+
+}
+.third-blogs-section{
+    max-width: 1140px;
+    height: 463px;
+    /* border: 1px solid hotpink; */
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    
+}
+.html-blogs ,.css-blogs,.Js_blogs{
+    width: 364px;
+    height: 300px;
+    /* border: 1px solid lawngreen; */
+}
+.html-blogs {
+    border-radius: 16px;
+
+    background: rgba(255, 76, 30, 0.05);
+
+}
+.css-blogs{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.Js_blogs{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+.html-titile,.css-title,.js-title{
+    padding: 40px 40px 40px 40px;
+
+}
+.HTML-TEXT,.CSS-TEXT,.JS-TEXT{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24PX;
+    font-weight: 800px;
+    padding-top: 20px;
+}
+.html-subtitle,.css-subtitle,.js-subtitle{
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 8px;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    font-family: Azeret Mono;
+    
+}
+.larn-More{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight:700;
+    padding-top: 20px;
+    line-height: 18px;
+    letter-spacing: 0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
