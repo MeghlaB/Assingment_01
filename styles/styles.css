@@ -313,9 +313,9 @@ iframe{
 /* Fourth-section */
 .fourth-section{
     width: 1140px;
-    height: 1010px;
+    height: 866px;
     margin: 0% auto;
-    border: 1px solid teal;
+    /* border: 1px solid teal; */
 }
 .fourth-text-heading{
     text-align: center;
@@ -340,8 +340,10 @@ iframe{
 .fourth-sections-blogs{ 
     width: 1140px;
     height: 219px;
-    border-radius: 18px;
+    box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
 
 
 }
@@ -350,8 +352,8 @@ iframe{
     height: 145px;
     display: flex;
     margin: 40px 40px 40px 40px;
-    gap: 24px;
-    border: 1px solid hotpink;
+    gap: 70px;
+    /* border: 1px solid hotpink; */
 }
 .react-js{
     padding: 20px 20px;
@@ -386,16 +388,96 @@ iframe{
     padding: 25px 24px 25px 0px;
 }
 .mongo{
+  
     width: 108px;
     height: 108px;
 }
+/* last-banners */
+.last-banner-section{
+    width: 1140px;
+    height: 314px;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 49px;
+    border-radius: 16px;
+    background: rgb(30, 30, 30);
+    background-image:url(../assets/handshake.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.last-banner-container{
+    width: 1044px;
+    height: 230px;
+    text-align: center;
+    margin: 0% auto;
+    margin-top: 64px;
+    margin-left: 48px;
+    margin-bottom: 64px;
+    margin-right: 48px;
+    
+}
+.last-banner-contain{
+    width: 730px;
+    height: 104px;
+    margin: 0 auto;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+    
+}
+.banner-title{
+    padding-top: 64px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    line-height: 26px;
+    font-weight: 700;
+}
+.banner-subtitle{
+    padding-top: 16px;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);  
+}
+.last-banner-button{
+    margin-top: 34px;
+    text-align: center;
+    margin-left: 100px;
+    padding-top: 30px;
 
-
-
-
-
-
-
-
-
-
+}
+.input-type{
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 900px;
+    line-height: 26px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    width: 584px;
+    height: 57px;
+    margin-right: 16px;
+}
+.last-btn{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    line-height: 23px;
+    font-family: Azeret Mono;
+    font-weight: 600;
+    padding-left: 20px;
+    width: 120px;
+    height: 58px;
+    border: none;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+/* footer-section */
+.footer-section{
+    width: 1440px;
+    height: 100px;
+    margin-top: 79px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    border: 1px solid khaki;
+}
