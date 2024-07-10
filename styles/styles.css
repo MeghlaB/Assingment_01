@@ -13,6 +13,14 @@
     margin: 0%;
     padding: 0%;
  }
+ /* common-styles */
+ .common-styles{
+    margin-top: 18px;
+ }
+ /* margin-top */
+ .margin-top{
+    margin-top: 48px;
+ }
  /* banner-sections_styles */
  .banner-section{
     max-width: 1440px;
@@ -305,7 +313,7 @@ iframe{
 /* Fourth-section */
 .fourth-section{
     width: 1140px;
-    height: 844px;
+    height: 1010px;
     margin: 0% auto;
     border: 1px solid teal;
 }
@@ -332,21 +340,55 @@ iframe{
 .fourth-sections-blogs{ 
     width: 1140px;
     height: 219px;
-    border: 1px solid hotpink;
+    border-radius: 18px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
 
 
 }
 .fourth-section-content{
     width: 1060px;
     height: 145px;
+    display: flex;
+    margin: 40px 40px 40px 40px;
+    gap: 24px;
     border: 1px solid hotpink;
 }
 .react-js{
+    padding: 20px 20px;
     width: 94.78px;
     height: 84.41px;
 }
-
-
+.rect{
+    font-size: 24px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-weight:800;
+}
+.react-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height:18px;
+    opacity: 0.7;
+    padding-top: 8px;
+}
+.fourth-button{
+    height: 19px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;   
+    padding-top: 24px;
+    opacity: 0.7;
+}
+.nodejs{
+    width: 143.21px;
+    height: 88px;
+    padding: 25px 24px 25px 0px;
+}
+.mongo{
+    width: 108px;
+    height: 108px;
+}
 
 
 
